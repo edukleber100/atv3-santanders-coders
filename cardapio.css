@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background: url(imagens/restaurante.jpg) no-repeat;
+    background-size: cover;
+}
+
+.tabela{
+    color: #fff;
+}
+
+table, th{
+    border-radius: 20px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    padding: 75px;
+}
+
+th{
+    color: #e1e2e4;
+    box-shadow: 4px 2px;
+    font-size: 50px; 
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    vertical-align: bottom;
+}
+
+img{
+    width: 100px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+img:hover{
+    width: 350px;
+    transition: 0.5s;
+}
+
+ol li{
+    font-size: 17px;
+    font-family: 'Bebas Neue', sans-serif;
+}
