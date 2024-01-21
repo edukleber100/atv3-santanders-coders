@@ -25,6 +25,27 @@ header {
 
 */
 
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background: #94715c; /* Cor de fundo da trilha da barra de rolagem */
+  border-radius: 8px;
+}
+
+/* Personalize a aparência do polegar (a parte arrastável da barra de rolagem) */
+::-webkit-scrollbar-thumb {
+  background: #6d4c2d; /* Cor do polegar */
+  border-radius: 8px;
+}
+
+/* Personalize o canto da barra de rolagem */
+::-webkit-scrollbar-corner {
+  border-radius: 20%;
+  background: #94715c; /* Cor de fundo do canto */
+}
+
 nav {
   display: flex;
   align-items: center;
