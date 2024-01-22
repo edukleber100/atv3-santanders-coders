@@ -26,22 +26,26 @@ th{
 table{
     width: 100%;
 }
-
+/* Alinha as imagens */
 td{
     vertical-align: bottom;
-}
+} 
 
+/* mUDA O TAMANHO DA IMAGEM */
 img{
     width: 100px;
     border-radius: 20px;
     transition: 0.5s;
-}
+} 
 
-img:hover{
+/* Cria a funcionalidade de aumentar de tamanho */
+img:hover{  
     width: 350px;
-    transition: 0.5s;
+    transition: 0.5s;  
 }
 
+
+/* Fonte e tamanho das letras */
 ol li{
     font-size: 17px;
     font-family: 'Bebas Neue', sans-serif;
