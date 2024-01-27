@@ -1,0 +1,22 @@
+A fazer:
+[ ] SEO
+[ ] Título e Descrição
+[ ] Responsividade para mobile (media queries)
+[ ] Acrescentar logo (substituir placeholder)
+[ ] Elaborar conteúdo do index.html
+[ ] Consertar hover do título principal da barra nav (está tampando o link clicável do logo à esquerda)
+[ ] Ajustes de interface e usabilidade (somente após finalizada implementação de conteúdo do projeto)
+
+
+
+Em progresso:
+
+
+
+
+
+
+
+Feito:
+[X] Ajustar títulos das páginas
+[X] Organização e limpeza do código pré-nova etapa do projeto
