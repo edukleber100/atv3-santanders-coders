@@ -152,3 +152,65 @@ footer li {
   font-family: "Kanit", sans-serif;
   color: white;
 }
+
+/* ::::::::::::::::::::::::::: Media Query para Dispositivos Móveis ::::::::::::::::::::::::::: */
+@media only screen and (max-width: 480px) {
+  body {
+    background: url("imagens/restaurante.jpg");
+    background-size: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    margin: 1rem 0 5rem 1rem;
+  }
+
+  a#return-link {
+    font-size: 18px;
+  }
+
+  #return {
+    width: 20px;
+    height: 16px;
+    margin-right: 5px;
+  }
+
+  .centro,
+  .centro2 {
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    position: static;
+    top: auto;
+    left: auto;
+    transform: none;
+    backdrop-filter: none;
+    margin: auto;
+  }
+
+  .centro h1,
+  .centro2 h1,
+  .centro label,
+  .centro2 label,
+  footer li {
+    font-size: 16px;
+  }
+
+  .centro button,
+  .centro2 button {
+    font-size: 12px;
+    margin-top: 15px;
+    width: 80px;
+    height: 40px;
+  }
+
+  .rodape {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer li {
+    margin-bottom: 10px;
+  }
+}

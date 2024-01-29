@@ -1,20 +1,21 @@
 A fazer:
-[ ] SEO
 [ ] Responsividade para mobile (media queries)
-[ ] Consertar hover do título principal da barra nav (está tampando o link clicável do logo à esquerda)
-[ ] Ajustes de interface e usabilidade (somente após finalizada implementação de conteúdo do projeto)
 
 
 
 Em progresso:
+[ ] Ajustes de interface e usabilidade (Desktop feito, falta mobile)
 
-
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
 
 
 
 
 
 Feito:
+[X] SEO
+[X] Consertar hover do título principal da barra nav (está tampando o link clicável do logo à esquerda)
 [X] Ajustar títulos das páginas
 [X] Organização e limpeza do código pré-nova etapa do projeto
 [x] Acrescentar logo (substituir placeholder)
