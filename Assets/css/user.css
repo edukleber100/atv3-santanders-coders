@@ -2,7 +2,7 @@
 
 /* ::::::: Estilização da imagem de fundo ::::::: */
 body {
-  background: url("imagens/restaurante.jpg");
+  background: url("./../image/restaurante.jpg");
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -156,7 +156,7 @@ footer li {
 /* ::::::::::::::::::::::::::: Media Query para Dispositivos Móveis ::::::::::::::::::::::::::: */
 @media only screen and (max-width: 480px) {
   body {
-    background: url("imagens/restaurante.jpg");
+    background: url("./../image/restaurante.jpg");
     background-size: no-repeat;
     margin: 0;
     padding: 0;

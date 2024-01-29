@@ -9,29 +9,12 @@
 }
 
 /* ::::::::::::::::::::::::::: Seletores Gerais ::::::::::::::::::::::::::: */
+
 body {
-  background: url(imagens/restaurante.jpg) no-repeat;
+  background: url(./../image/restaurante.jpg) no-repeat;
   background-size: cover;
-  font-size: 19px;
   font-family: "Bebas Neue", sans-serif;
-  margin: 20px; /* Margens ao redor do corpo da página */
-  max-width: 800px; /* Largura máxima do conteúdo */
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--cor-letra);
-  text-shadow: var(--sombra-texto);
-}
-
-.fundo{
-  backdrop-filter: blur(8px);
-  box-shadow: 2px 5px 8px 10px #e1e2e46b;
-
-  border-radius: 10px;
-}
-
-.sobre{
-  padding: 20px;
+  backdrop-filter: blur(5px);
 }
 
 ::-webkit-scrollbar {
@@ -56,27 +39,25 @@ body {
 }
 
 /* ::::::::::::::::::::::::::: Header ::::::::::::::::::::::::::: */
+
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1rem;
-  
-}
-
-.text-title {
-  font-size: 24px;
 }
 
 #main-nav-menu {
-  flex-grow: 1;
+  display: inline-flex;
+  justify-content: center;
   text-align: center;
   color: var(--cor-letra);
   text-shadow: var(--sombra-texto);
   font-size: 38px;
   text-decoration: none;
-  transition: 0.5s ease;
+  transition: 1s ease;
   letter-spacing: 3px;
+  margin: 0 7rem;
 }
 
 #main-nav-menu:hover {
@@ -95,7 +76,7 @@ nav {
 
 #secundary-nav-menu a {
   text-decoration: none;
-  margin-left: 3rem;
+  margin-left: 5rem;
   color: var(--cor-letra);
   text-shadow: var(--sombra-texto);
   font-size: 14px;
@@ -114,6 +95,10 @@ a#login {
   margin-left: 0rem;
 }
 
+.text-title {
+  font-size: 24px;
+}
+
 #cart {
   margin-top: -10px;
   margin-bottom: -12px;
@@ -126,67 +111,94 @@ a#login {
   width: 90px;
   height: 75px;
   border-radius: 50%;
+}
+/* ::::::::::::::::::::::::::: Body ::::::::::::::::::::::::::: */
+
+table,th {
+  border-radius: 20px;
+  text-align: center;
+
+  padding: 75px;
+}
+
+th {
+  color: var(--cor-letra);
+  box-shadow: 4px 2px;
+  font-size: 50px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  vertical-align: bottom;
+}
+
+img {
+  width: 300px;
+  border-radius: 20px;
   transition: 1s ease;
 }
 
-#nav-logo:hover {
+img:hover {
   scale: 1.2;
   transition: 1s ease;
 }
 
-.navcabecalho{
-  display: flex;
+ol li {
+  font-size: 17px;
 }
 
-/* ::::::::::::::::::::::::::: Body ::::::::::::::::::::::::::: */
-article {
-  text-indent: 3em;
-  text-align: justify;
-  text-shadow: var(--sombra-texto);
+.tabela {
+  color: #fff;
 }
-
-.destacar {
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 3px #b30000;
-}
-
-.destacar:hover {
-  text-shadow: 3px 3px 8px #b30000;
-}
-
-
 
 /* ::::::::::::::::::::::::::: Media Query para Dispositivos Móveis ::::::::::::::::::::::::::: */
 @media only screen and (max-width: 480px) {
   body {
     max-width: 100vw;
     overflow-x: hidden;
+    background: url(./../image/restaurante.jpg) no-repeat;
+    background-size: cover;
+    font-family: "Bebas Neue", sans-serif;
+    backdrop-filter: blur(5px);
     margin: 0;
   }
 
+  
+
   nav {
     width: 100%;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
   }
 
   #main-nav-menu {
     font-size: 28px;
-    margin: 0;
+    margin: 0 1rem;
   }
 
   #secundary-nav-menu {
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-right: 2rem;
-    scale: .8;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 1rem;
   }
 
   #secundary-nav-menu a {
-    margin: 0.5rem 0;
-    font-size: 14px;
+    margin: 0.5rem .5rem;
+    font-size: 12px;
+  }
+
+  a#login {
+    margin-left: 0rem;
+  }
+
+  .text-title {
+    font-size: 18px;
   }
 
   #cart {
@@ -199,17 +211,48 @@ article {
     height: 50px;
   }
 
-  article {
-    text-indent: 0;
-    text-align: left;
+  table {
+    border-spacing: 0 30px;
   }
 
-  article > h1 {
-    margin-top: 0;
+  table,
+  th {
+    padding: 30px;
   }
 
-  .destacar {
-    font-size: 1.2rem;
-    letter-spacing: 0.5px;
+  th {
+    font-size: 30px;
+  }
+
+  img {
+    margin: 5px 5px;
+    width: 90px;
+    height: 70px;
+  }
+
+  ol li {
+    font-size: 14px;
+  }
+
+  ol, ul {
+    padding: 20px;
+  }
+
+  .tabela {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  td {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    text-align: center;
+  }
+
+  td > img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
   }
 }
