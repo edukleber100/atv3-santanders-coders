@@ -1,13 +1,9 @@
 A fazer:
-[ ] Responsividade para mobile (media queries)
 
 
 
 Em progresso:
-[ ] Ajustes de interface e usabilidade (Desktop feito, falta mobile)
 
-320px — 480px: Mobile devices.
-481px — 768px: iPads, Tablets.
 
 
 
@@ -15,9 +11,17 @@ Em progresso:
 
 Feito:
 [X] SEO
-[X] Consertar hover do título principal da barra nav (está tampando o link clicável do logo à esquerda)
-[X] Ajustar títulos das páginas
-[X] Organização e limpeza do código pré-nova etapa do projeto
-[x] Acrescentar logo (substituir placeholder)
-[x] Elaborar conteúdo do index.html
 [x] Título e Descrição
+[X] Ajustar títulos das páginas
+[x] Elaborar conteúdo do index.html
+[X] Ajustes de interface e usabilidade
+[x] Acrescentar logo (substituir placeholder)
+[X] Responsividade para mobile (media queries)
+[X] Organização e limpeza do código pré-nova etapa do projeto
+[X] Consertar hover do título principal da barra nav (está tampando o link clicável do logo à esquerda)
+
+
+Referências:
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+800x: Desktops
