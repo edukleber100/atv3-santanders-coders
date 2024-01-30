@@ -140,6 +140,7 @@ img {
   width: 300px;
   border-radius: 20px;
   transition: 1s ease;
+  margin-left: 3px;
 }
 
 img:hover {
